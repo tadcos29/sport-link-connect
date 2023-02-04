@@ -14,7 +14,9 @@ My own responsibilities centered on integrating overall application logic, OpenS
 
 ## Technical Overview:
 
-The application fetches geographical landmark information from the GeoNames API and graphical tile data from OpenStreetMap API, leaning on the Leaflet.js library. It combines the two to offer a visual representation of nearby points of interest. It also updates the geographical area under scrutiny on request, by fetching a geocode resolution of a natural-language street address or other location name from the Nominatim API. 
+The application fetches geographical landmark information from the GeoNames API and graphical tile data from OpenStreetMap API, leaning on the Leaflet.js library. It combines the two to offer a visual representation of nearby points of interest. It also updates the geographical area under scrutiny on request, by fetching a geocode resolution of a natural-language street address or other location name from the Nominatim API.
+
+Its object structure is intended to be adaptable to the Strava API, once the CORS issues associated with it are overcome, at which point it will cleave closer to its concept, and aim to serve urban fitness enthusiasts in addition to people interested in parks, beaches, kayak portages, and so on.
 
 Its user interface is powered by the Tailwind framework in addition to Bootstrap. 
 
