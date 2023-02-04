@@ -2,33 +2,27 @@
 
 ## Description
 
+A proof-of-concept mock-up of a web application aiming to connect individual outdoorspeople on the basis of geographical points of common interest.
 
-## Installation
+## Introduction and Purpose:
 
-Web-based version of the application is accessible at the following URL: https://Tegrty.github.io/Sport-Link-Connect	
+This was my first group project at the coding bootcamp, and the challenge lay in collaboration itself as much, if not more, as in the composition of the application. At the end of the day, the application does not serve a discrete purpose for the visiting user, unless that purpose is simply the display and favouriting of landmarks around the geographical coordinates of the user (if permitted) and having that information persist in local storage. It requires a more mature deployment environment, with some backend support, and of course a great deal of additional work, to actually realise its potential.
 
-## Usage
+Still, it represents my first steps in tackling the challenge of asynchronicity in JavaScript and in shaping fetch requests. The idea of membership and social connection is represented via simulated plain-text-passworded 'accounts' in the browser's local storage, which are able to 'see' each other's favourited landmarks. 
 
-To use Advanced CSS Project, you can review the notes in each section. 
+My own responsibilities centered on integrating overall application logic, OpenStreetMap/Nominatim API requests, local storage handling, and the event layer under the user interface masterfully styled by Mario Repas [!Tegrty](https://github.com/Tegrty). Vasily Likhovaydo [!vasilyl1](https://github.com/vasilyl1) researched and implemented the core GeoNames API, performed countless instances of heroic troubleshooting, and kept a much-needed eye on the project's pace and scope.
 
-## Credits
+## Technical Overview:
 
-Tegrty, vasilyl1, tadcos29
+The application fetches geographical landmark information from the GeoNames API and graphical tile data from OpenStreetMap API, leaning on the Leaflet.js library. It combines the two to offer a visual representation of nearby points of interest. It also updates the geographical area under scrutiny on request, by fetching a geocode resolution of a natural-language street address or other location name from the Nominatim API. 
 
-## License
+Its user interface is powered by the Tailwind framework in addition to Bootstrap. 
 
-MIT License
+## Results:
 
-Copyright (c) 2022 
+![image](./assets/img/Readme-gif.gif/)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The application is currently live on [GitHub Pages](https://tegrty.github.io/Sport-Link-Connect/) courtesy of Mario Repas.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+My GitHub repository for the project is: https://github.com/tadcos29/sport-link-connect
