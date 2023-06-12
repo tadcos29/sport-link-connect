@@ -10,7 +10,7 @@ This was my first group project at the coding bootcamp, and the challenge lay in
 
 Still, it represents my first steps in tackling the challenge of asynchronicity in JavaScript and in shaping fetch requests. The idea of membership and social connection is represented via simulated plain-text-passworded 'accounts' in the browser's local storage, which are able to 'see' each other's favourited landmarks. 
 
-My own responsibilities centered on integrating overall application logic, OpenStreetMap/Nominatim API requests, local storage handling, and the event layer under the user interface masterfully styled by Mario Repas [Tegrty](https://github.com/Tegrty). Vasily Likhovaydo [vasilyl1](https://github.com/vasilyl1) researched and implemented the core GeoNames API, performed countless instances of heroic troubleshooting, and kept a much-needed eye on the project's pace and scope.
+My own responsibilities centered on integrating overall application logic, OpenStreetMap/Nominatim API requests, local storage handling, and the event layer under the user interface masterfully styled by Mario Repas ([Tegrty](https://github.com/Tegrty)). Vasily Likhovaydo ([vasilyl1](https://github.com/vasilyl1)) researched and implemented the core GeoNames API, performed countless instances of heroic troubleshooting, and kept a much-needed eye on the project's pace and scope.
 
 ## Technical Overview:
 
